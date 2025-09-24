@@ -31,14 +31,14 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 
 Avalia se o sistema é capaz de funcionar adequadamente em diferentes contextos de uso, incluindo a diversidade de usuários, tarefas e ambiente operacionais.
 Verifica se as outras subcaracterísticas são mantidas em cenários diversos e não especificados nos requisitos iniciais.
-   Ex: Para um software, é necessário verificar se tem uma boa cobertura de contexto através de perguntas como:
-      - Métrica: Funciona em diferentes SOs?
+   Ex: Para um software, é necessário verificar se tem uma boa cobertura de contexto através de perguntas como
+   1. - Métrica: Funciona em diferentes SOs?
       - Meta: Funcionar em 3 diferentes SOs: Windows, macOS, Linux;
-      - Métrica: É responsivo?
+   2. - Métrica: É responsivo?
       - Meta: Tudo que aparece em desktop deve aparecer em outros aparelhos (como celular, smartwatch) sem quebrar;
-      - Métrica: Lida com diferentes volumes de dados?
+   3. - Métrica: Lida com diferentes volumes de dados?
       - Meta: Aceita volumes pequeno, médio, grande;
-      - Métrica: É adequado para qualquer usuário?
+   4. - Métrica: É adequado para qualquer usuário?
       - Meta: Usuário com analfabetismo ou não conseguem usar; Jovens e adultos conseguem usar;
    Se a resposta for sim para a maioria das perguntas, a cobertura de contexto é alta, tornando o software mais robusto, confiável e útil para um público maior.
 
