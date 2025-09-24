@@ -65,11 +65,11 @@ Subcaracterísticas:
 - Comportamento temporal:
      - Métrica: Tempo de resposta e taxas de rendimento atendem aos requisitos ao executar suas funções.
      - Meta: Um aplicativo de banco processa uma transferência em menos de 1 segundo.
-     - 
+      
 - Utilização de recursos:
      - Métrica: Quanta memória, CPU e outros recursos o sistema consome.
      - Meta: Em um jogo online, ao invés de carregar todos os objetos do jogo, é utilizado a renderização apenas no que o jogador pode ver, dessa forma, economizando o poder da CPU e da GPU, evitando lag.
-     - 
+       
 - Capacidade:
      - Métrica: O quanto o sistema consegue suportar antes de falhar.
      - Meta: Um site de e-commerce suporta 10.000 usuários simultâneos sem ficar lento.
