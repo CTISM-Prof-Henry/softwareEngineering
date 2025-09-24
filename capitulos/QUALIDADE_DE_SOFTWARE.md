@@ -45,6 +45,22 @@ Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 
 <img alt="relógio de luxo" src="../imagens/patek_philippe.png" width="400px">
 
+### Compatibilidade
+
+A meta de compatibilidade desse software é 
+
+1. **Categoria**: Compatibilidade
+2. **Métrica**:
+   Interoperabilidade: Serviços conectados ao software devem ter conexão confiável, sem apresentação de erros. Critério: Sucesso ou falha na conexão com o banco de dados (pgAdmin) em cada tela do software. (50%)
+   Coexistência: O sistema deve funcionar da mesma maneira, por exemplo, no Chrome, Firefox e Edge. Critério: Resultados diferentes entre a mesma tarefa em diferentes sistemas. (50%)
+5. **Meta**: Testar interação do software back-end com o front-end, e o back-end com o serviço de banco de dados (pgAdmin) conectado a ele. Testar interação do software em browsers diferentes. Ter sucesso de pelo menos 75%. 
+
+### Eficiência
+
+1. **Categoria**: Eficiência
+2. **Métrica**: Teste com vários usuários para mensurar facilidade de uso e intuitividade do software. Critérios são o nível subjetivo de satisfação dos usuários sobre cada página. Aplicar formulário de 10 questões sobre cada usuário.
+4. **Meta***: Teste com pelo menos dez pessoas. Média de pelo menos 85% de satisfação após aplicação do formulário.
+
 ## Como mensurar a qualidade?
 
 A maneira de mensurar qualidade depende do que a equipe de desenvolvimento definir junto com o cliente. Não existem critérios rígidos, e 
