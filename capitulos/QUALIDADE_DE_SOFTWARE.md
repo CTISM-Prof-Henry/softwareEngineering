@@ -30,7 +30,7 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 
 <img alt="escavadeira" src="../imagens/escavadeira.webp" width="400px">
 
-### Eficácia
+## Eficácia
 
 DESCRIÇÃO:
 sobre o assunto eficácia temos métricas para medir o quanto um software cumpre bem seus objetivos
@@ -51,6 +51,7 @@ como avaliar a eficácia?
 2. testar a emissão de relatórios das transações de entradas e saídas(sem erros)
 
 
+
 ## Qualidade do Produto
 
 Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
@@ -65,6 +66,30 @@ Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 8. **Portabilidade:** capacidade de ser transferido para outros ambientes.
 
 <img alt="relógio de luxo" src="../imagens/patek_philippe.png" width="400px">
+
+## Segurança
+
+Para avaliar a qualidade da segurança do produto é necessário avaliar os seguintes critérios
+
+- [ ] Confidencialidade - Garantir a segurança dos dados
+- [ ] Integridade - Grau em que um sistema, produto ou componente garante que o estado de seu sistema e dados esteja protegido
+      contra modificações ou exclusões não autorizadas, seja por ação maliciosa ou erro de computador.
+- [ ] Não-repúdio - Grau em que ações ou eventos podem ser provados como tendo ocorrido, de modo que não possam ser negados posteriormente.
+- [ ] Responsabilidade - Capacidade de rastrear ações de uma entidade
+- [ ] Autenticidade - Grau em que a identidade de um sujeito ou recurso pode ser comprovada como sendo a alegada.
+- [ ] Resistência - Capacidade do sistema manter sua operação enquanto está sob ataque de um agente malicioso.
+
+Como testar?
+
+Pergunta: Apenas pessoas autorizadas conseguem acessar o sistema da padaria?
+O sistema tem controle de acesso com usuários e senhas?
+Os dados do estoque, preços e notas fiscais estão restritos a funcionários com permissão (ex: só o gerente pode editar preços)?
+Existe criptografia nos dados sensíveis (como CPF/CNPJ de clientes ou informações fiscais)?
+
+Pergunta: Os dados de estoque e notas fiscais permanecem corretos e íntegros ao longo do tempo?
+O sistema registra corretamente a entrada e saída de produtos do estoque?
+Há validação contra erros ou manipulações (por exemplo, impedir que se registre a venda de produtos inexistentes)?
+O sistema evita a modificação de notas fiscais emitidas?
 
 ## Como mensurar a qualidade?
 
