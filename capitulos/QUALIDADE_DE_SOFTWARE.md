@@ -30,6 +30,20 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 
 <img alt="escavadeira" src="../imagens/escavadeira.webp" width="400px">
 
+### Eficiência
+
+A eficiência relaciona-se ao uso otimizado dos recursos disponíveis pelo software, incluindo tempo (velocidade) e espaço (uso da memória). Nesse sentido, um sistema eficiente deve realizar suas funções rapidamente enquanto consome o mínimo possível de recursos computacionais.
+
+Softwares eficientes melhoram a experiência geral do usuário ao reduzir tempos de carregamento e aumentar a responsividade das aplicações, além de reduzir custos operacionais relacionados ao uso excessivo de recursos.
+
+Exemplo: Aplicativo de Banco, um cliente usa o app para transferir dinheiro.
+Será ineficiênte se o aplicativo levar muito tempo para abrir, consumir muita memória ou travar o celular.  
+Será eficiênte se o aplicativo abrir rapidamente, fizer a transferência em poucos segundos e em poucos toques, mesmo em dispositivos com hardware limitado.
+
+Exemplo: Sistema de gestão empresárial, um funcionário precisam gerar relatórios mensais.
+Será ineficiênte se o o sistema demorar 2 minutos ou mais para gerar um relatório simples, ocupando grande parte da CPU.
+Será eficiênte se o sistema gera o mesmo relatório em 10 segundos, sem travar outras aplicações em execução.
+
 ## Qualidade do Produto
 
 Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
@@ -44,6 +58,17 @@ Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 8. **Portabilidade:** capacidade de ser transferido para outros ambientes.
 
 <img alt="relógio de luxo" src="../imagens/patek_philippe.png" width="400px">
+
+### Adequação Funcional
+
+Essa característica envolve a capacidade do software de realizar o que ele se propõe a fazer, entregando as funções necessárias para atender aos requisitos do usuário. As subcaracterísticas são:
+
+Integridade funcional: cobertura de todas as tarefas e objetivos;
+Correção funcional: quão bem provê os resultados corretos quando preciso;
+Adequação funcional: quão bem é capaz de realizar tarefas e objetivos específicos.
+
+Exemplo: Sistema E-commerce, o software é capaz de calcular o frete de forma precisa em todos os pedidos sem erro.
+Exemplo: Aplicativo de rede social, deve permitir que os usuários criem seus perfis, editem informações pessoais e interajam com outros usuários conferme definido nos requisitos.
 
 ## Como mensurar a qualidade?
 
