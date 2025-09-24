@@ -27,6 +27,20 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 4. **Liberdade de risco:** O software, ao ser usado, oferece riscos à integridade do usuário?
 5. **Cobertura de contexto:** O software funciona sob diferentes condições de uso?
 
+### Cobertura de contexto
+
+Avalia se o sistema é capaz de funcionar adequadamente em diferentes contextos de uso, incluindo a diversidade de usuários, tarefas e ambiente operacionais.
+Verifica se as outras subcaracterísticas são mantidas em cenários diversos e não especificados nos requisitos iniciais.
+   Ex: Para um software, é necessário verificar se tem uma boa cobertura de contexto através de perguntas como:
+      - Métrica: Funciona em diferentes SOs?
+      - Meta: Funcionar em 3 diferentes SOs: Windows, macOS, Linux;
+      - Métrica: É responsivo?
+      - Meta: Tudo que aparece em desktop deve aparecer em outros aparelhos (como celular, smartwatch) sem quebrar;
+      - Métrica: Lida com diferentes volumes de dados?
+      - Meta: Aceita volumes pequeno, médio, grande;
+      - Métrica: É adequado para qualquer usuário?
+      - Meta: Usuário com analfabetismo ou não conseguem usar; Jovens e adultos conseguem usar;
+   Se a resposta for sim para a maioria das perguntas, a cobertura de contexto é alta, tornando o software mais robusto, confiável e útil para um público maior.
 
 <img alt="escavadeira" src="../imagens/escavadeira.webp" width="400px">
 
@@ -42,6 +56,25 @@ Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 6. **Eficiência de Desempenho:** tempo de resposta, uso de recursos.
 7. **Manutenibilidade:** facilidade de modificar, corrigir, evoluir.
 8. **Portabilidade:** capacidade de ser transferido para outros ambientes.
+
+### Eficiência de Desempenho
+
+A eficiência de desempenho descreve a capacidade de um produto ou sistema de executar suas funções de forma otimizada. Isso envolve a utilização eficiente de recursos e o cumprimento de requisitos de tempo e rendimento sob condições específicas.
+
+Subcaracterísticas:
+- Comportamento temporal:
+     - Métrica: Tempo de resposta e taxas de rendimento atendem aos requisitos ao executar suas funções.
+     - Meta: Um aplicativo de banco processa uma transferência em menos de 1 segundo.
+     - 
+- Utilização de recursos:
+     - Métrica: Quanta memória, CPU e outros recursos o sistema consome.
+     - Meta: Em um jogo online, ao invés de carregar todos os objetos do jogo, é utilizado a renderização apenas no que o jogador pode ver, dessa forma, economizando o poder da CPU e da GPU, evitando lag.
+     - 
+- Capacidade:
+     - Métrica: O quanto o sistema consegue suportar antes de falhar.
+     - Meta: Um site de e-commerce suporta 10.000 usuários simultâneos sem ficar lento.
+   Ex. CPU, memória, armazenamento.
+
 
 <img alt="relógio de luxo" src="../imagens/patek_philippe.png" width="400px">
 
