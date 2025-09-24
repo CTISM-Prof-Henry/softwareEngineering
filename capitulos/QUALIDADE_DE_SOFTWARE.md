@@ -32,17 +32,19 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 
 ### Eficiência
 
-A eficiência relaciona-se ao uso otimizado dos recursos disponíveis pelo software, incluindo tempo (velocidade) e espaço (uso da memória). Nesse sentido, um sistema eficiente deve realizar suas funções rapidamente enquanto consome o mínimo possível de recursos computacionais.
+A eficiência relaciona-se ao uso otimizado dos recursos disponíveis pelo software, incluindo tempo (velocidade). Nesse sentido, um sistema eficiente deve realizar suas funções rapidamente e facilmente pelo usuário.
 
-Softwares eficientes melhoram a experiência geral do usuário ao reduzir tempos de carregamento e aumentar a responsividade das aplicações, além de reduzir custos operacionais relacionados ao uso excessivo de recursos.
+Softwares eficientes melhoram a experiência geral do usuário ao reduzir o tempo que o usuário demora para realizar ações ao aumentar a responsividade das aplicações.
 
 Exemplo: Aplicativo de Banco, um cliente usa o app para transferir dinheiro.
-Será ineficiênte se o aplicativo levar muito tempo para abrir, consumir muita memória ou travar o celular.  
-Será eficiênte se o aplicativo abrir rapidamente, fizer a transferência em poucos segundos e em poucos toques, mesmo em dispositivos com hardware limitado.
+Será ineficiênte se o usuário demorar muito tempo para descobrir como fazer a transferência.  
+Será eficiênte se o aplicativo for intuitivo nas funcionalidades, conseguir fazer a transferência em poucos segundos e em poucos toques.
+Nesse exemplo a métrica da boa eficiência é o tempo, medido por quantos segundos o usuário demora para realizar a ação utilizando as funcionalidades do sistema.
 
-Exemplo: Sistema de gestão empresárial, um funcionário precisam gerar relatórios mensais.
-Será ineficiênte se o o sistema demorar 2 minutos ou mais para gerar um relatório simples, ocupando grande parte da CPU.
-Será eficiênte se o sistema gera o mesmo relatório em 10 segundos, sem travar outras aplicações em execução.
+Exemplo: Sistema de gestão empresárial, um funcionário precisam gerar relatórios mensais urgente por conta que o chefe pediu.
+Será ineficiênte se o usuário não conseguir gerar os relatórios no prazo que o chefe pediu por conta da interface não intuitiva do app.
+Será eficiênte se o sistema gerar o mesmo relatório em poucos cliques, em pouco tempo e quando o usuário precisar/quiser.
+Nesse exemplo a métrica da boa eficiência é o tempo, medido por quantos segundos o usuário demora para realizar a ação utilizando as funcionalidades do sistema.
 
 ## Qualidade do Produto
 
@@ -61,14 +63,14 @@ Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 
 ### Adequação Funcional
 
-Essa característica envolve a capacidade do software de realizar o que ele se propõe a fazer, entregando as funções necessárias para atender aos requisitos do usuário. As subcaracterísticas são:
+Esta característica representa o grau em que um produto ou sistema fornece funções que atendem às necessidades declaradas e implícitas quando utilizado sob condições especificadas. Esta característica é composta pelas seguintes subcaracterísticas:
 
-Integridade funcional: cobertura de todas as tarefas e objetivos;
-Correção funcional: quão bem provê os resultados corretos quando preciso;
-Adequação funcional: quão bem é capaz de realizar tarefas e objetivos específicos.
+Completude funcional - Grau em que o conjunto de funções abrange todas as tarefas especificadas e os objetivos dos usuários pretendidos.
+Correção funcional - Grau em que um produto ou sistema fornece resultados precisos quando utilizado pelos usuários pretendidos.
+Adequação funcional - Grau em que as funções facilitam a realização de tarefas e objetivos especificados.
 
 Exemplo: Sistema E-commerce, o software é capaz de calcular o frete de forma precisa em todos os pedidos sem erro.
-Exemplo: Aplicativo de rede social, deve permitir que os usuários criem seus perfis, editem informações pessoais e interajam com outros usuários conferme definido nos requisitos.
+Exemplo: Aplicativo de rede social, deve permitir que os usuários criem seus perfis, editem informações pessoais e interajam com outros usuários conforme definido nos requisitos.
 
 ## Como mensurar a qualidade?
 
