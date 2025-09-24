@@ -23,12 +23,33 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 
 1. **Eficácia:** o software cumpre os objetivos? 
 2. **Eficiência:** O software atende os requisitos exigindo pouco esforço do usuário para sua manipulação?
-3. **Satisfação:** O usuário ficou satisfeito?
-4. **Liberdade de risco:** O software, ao ser usado, oferece riscos à integridade do usuário?
-5. **Cobertura de contexto:** O software funciona sob diferentes condições de uso?
+4. **Satisfação:** O usuário ficou satisfeito?
+5. **Liberdade de risco:** O software, ao ser usado, oferece riscos à integridade do usuário?
+6. **Cobertura de contexto:** O software funciona sob diferentes condições de uso?
 
 
 <img alt="escavadeira" src="../imagens/escavadeira.webp" width="400px">
+
+### Eficácia
+
+DESCRIÇÃO:
+sobre o assunto eficácia temos métricas para medir o quanto um software cumpre bem seus objetivos
+Por exemplo temos uma aplicação de padaria com sistema de estoque e emissão de nota fiscal
+- [ ] Emissão de nota fiscal
+A emissão de nota fiscal é um requisito funcional para a padaria
+
+como avaliar a eficácia?
+1. testar o processo de emissão de uma nota fiscal, verificando se ela está cumprindo com todas as exigências legais, se ela
+é rápida sem erros(como a emissão de cpf).
+2. testar a validação do envio das notas para o governo e para o sistema do governo
+
+- [ ] Gestão de estoque
+      A gestão de estoque é outro requisito funcional pois a padaria precisa garantir que não falte produtos disponiveis para a venda
+      
+como avaliar a eficácia?
+1. verificar se o sistema registra todas as transações de entradas e saídas de produto
+2. testar a emissão de relatórios das transações de entradas e saídas(sem erros)
+
 
 ## Qualidade do Produto
 
