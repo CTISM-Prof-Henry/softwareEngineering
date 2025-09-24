@@ -42,7 +42,7 @@ Meta: Notas 4 ou maiores. Além de porcentagem geral superior a 80%.
 
 
 
-### Qualidade do Produto
+## Qualidade do Produto
 
 Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 
@@ -58,7 +58,7 @@ Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 <img alt="relógio de luxo" src="../imagens/patek_philippe.png" width="400px">
 
 
-## Confiabilidade 
+### Confiabilidade 
 
 A confiabilidade de software é definida como a probabilidade do sistema funcionar sem ocorrência de falhas num período e ambiente especificados.
 
