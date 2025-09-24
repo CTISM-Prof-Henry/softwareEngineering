@@ -36,6 +36,7 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 
 Envolver os usuários da criação do software, através de feedbacks e adaptação de expectativas. Os feedbacks permitem o software estar acessível e de fácil uso, além de atender as necessidades do usuário. Já a adaptação permite que ambos, usuários e desenvolvedores, estejam alinhados nas funcionalidades e no que será entregue com o software.
 Uma das métricas para mesurar satisfação é o Customer Satisfaction Score (CSAT): um método usado para calcular a porcentagem por meio de perguntas como: "você está satisfeito com o app?". Os usuários dão suas respostas numa escala de 1 a 5. O calculo da porcentagem dos usuários será a satisfação em relação ao software.  
+___________________________________________________________________________________________________________
 Métrica: Customer Satisfaction Score (CSAT);
 Meta: Notas 4 ou maiores. Além de porcentagem geral superior a 80%. 
 
