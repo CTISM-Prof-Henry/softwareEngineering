@@ -59,7 +59,7 @@ A meta de compatibilidade desse software é
 
 1. **Categoria**: Eficiência
 2. **Métrica**: Teste com vários usuários para mensurar facilidade de uso e intuitividade do software. Critérios são o nível subjetivo de satisfação dos usuários sobre cada página. Aplicar formulário de 10 questões sobre cada usuário.
-4. **Meta***: Teste com pelo menos dez pessoas. Média de pelo menos 85% de satisfação após aplicação do formulário.
+4. **Meta**: Teste com pelo menos dez pessoas. Média de pelo menos 85% de satisfação após aplicação do formulário.
 
 ## Como mensurar a qualidade?
 
