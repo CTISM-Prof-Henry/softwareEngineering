@@ -1,3 +1,45 @@
+# Testes de Software
+
+Os testes de software são uma maneira de garantir que os requisitos funcionais e não-funcionais do software sejam 
+cumpridos.
+
+Podem ser divididos em duas grandes categorias:
+
+1. **Testes caixa branca:** preocupam-se com a estrutura interna do software, como os tipos de classe sendo usados,
+   exceções lançadas, dentre outros detalhes de implementação.
+2. **Testes caixa preta:** focam nas entradas e saídas do software, sem preocupação com a implementação interna.
+
+Os testes de software podem ainda ser categorizados de acordo com o escopo de teste: unitários, de componentes, e de 
+integração.
+
+## Tipos de teste de software
+
+### Unitários
+
+Os testes unitários verificam pequenas funcionalidades de um componente. Por exemplo, se tivermos uma classe 
+`Calculadora`, podem-se escrever tantos testes unitários quanto forem os métodos da calculadora (e.g. `testaSoma`, 
+`testaMultiplicacao`, etc).
+
+### De Componentes
+
+Um teste de componente assume um componente completo (e.g. `Calculadora`) de forma isolada, testando sua lógica interna
+e sua interação com interfaces externas. Outros componentes **não são** testados em conjunto quando testa-se um 
+componente em específico; são usadas entradas simuladas (mock ups), com um retorno esperado. Por exemplo, para testar
+o método `soma` da classe `Calculadora`, simula-se a digitação de dois números, com o resultado esperado já conhecido.
+
+### Integração
+
+Os testes de integração verificam a interface entre componentes e como eles se comunicam. Por exemplo, pode-se testar 
+como um componente `Teclado` coleta as informações digitadas pelo usuário e as repassa para o componente `Calculadora`.
+
+### Funcionais/Aceitação
+
+São testes que avaliam o sistema do ponto de vista da interface externa (por exemplo, a interface Web de um site), 
+levando em consideração a perspectiva do usuário final que fará uso do software. Testes funcionais garantem que o 
+sistema realiza as funções esperadas, enquanto testes de aceitação validam que o sistema atende aos requisitos acordados 
+com o cliente ou usuário final.
+
+
 # Test-Driven Development
 
 O desenvolvimento orientado a testes (TDD, Test-Driven Development) foi inicialmente proposto por Kent Beck como parte
@@ -41,34 +83,6 @@ flowchart LR
 > Com frequência, testes unitários são implementados de maneira automatizada. Porém, isto não é uma obrigatoriedade!
 > Na verdade, outros tipos de teste podem ser também automatizados, como testes de integração (através de um framework
 > como por exemplo [selenium](https://www.selenium.dev/)).
-
-
-## Tipos de teste de software
-
-### Unitários
-
-Os testes unitários verificam pequenas funcionalidades de um componente. Por exemplo, se tivermos uma classe 
-`Calculadora`, podem-se escrever tantos testes unitários quanto forem os métodos da calculadora (e.g. `testaSoma`, 
-`testaMultiplicacao`, etc).
-
-### De Componentes
-
-Um teste de componente assume um componente completo (e.g. `Calculadora`) de forma isolada, testando sua lógica interna
-e sua interação com interfaces externas. Outros componentes **não são** testados em conjunto quando testa-se um 
-componente em específico; são usadas entradas simuladas (mock ups), com um retorno esperado. Por exemplo, para testar
-o método `soma` da classe `Calculadora`, simula-se a digitação de dois números, com o resultado esperado já conhecido.
-
-### Integração
-
-Os testes de integração verificam a interface entre componentes e como eles se comunicam. Por exemplo, pode-se testar 
-como um componente `Teclado` coleta as informações digitadas pelo usuário e as repassa para o componente `Calculadora`.
-
-### Funcionais/Aceitação
-
-São testes que avaliam o sistema do ponto de vista da interface externa (por exemplo, a interface Web de um site), 
-levando em consideração a perspectiva do usuário final que fará uso do software. Testes funcionais garantem que o 
-sistema realiza as funções esperadas, enquanto testes de aceitação validam que o sistema atende aos requisitos acordados 
-com o cliente ou usuário final.
 
 ## Escrevendo testes unitários
 
