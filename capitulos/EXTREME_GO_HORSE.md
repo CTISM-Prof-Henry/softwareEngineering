@@ -6,7 +6,10 @@ Criado como uma sátira ao Manifesto Ágil e seus princípios, o Extreme Go Hors
 software amplamente utilizado na prática, apesar das pessoas não o conhecerem por esse nome. Ele define 22 princípios
 que devem ser utilizados pelos _Go Horsers_ (programadores que aderem a este método):
 
-<img src="../imagens/extreme_go_horse.jpg" alt="capa de livro satírica com o título Extreme Go Horse" width="320px">
+<p align="center">
+  <img src="../imagens/extreme_go_horse.jpg" alt="capa de livro satírica com o título Extreme Go Horse" width="45%">
+  <img src="../imagens/go_horse_mug.jpeg" alt="uma caneca com o logo do Extreme Go Horse" width="45%">
+</p>
 
 ## Princípios
 

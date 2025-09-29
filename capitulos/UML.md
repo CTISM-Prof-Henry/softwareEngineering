@@ -49,7 +49,7 @@ flowchart TD
     actor2["👤 Administrador"]
 
     subgraph Sistema
-        uc1([Login])
+        uc1([Realiza Login])
         uc2([Gera relatório])
         uc3([Gerencia usuários])
     end
@@ -96,9 +96,9 @@ classDiagram
         -altura: float
         -largura: float
         -comprimento: float
-        +getAltura(): float
-        +getLargura(): float
-        +getComprimento(): float
+        +getAltura() float
+        +getLargura() float
+        +getComprimento() float
     }
 ```
 
@@ -122,8 +122,8 @@ class Animal {
     -n_patas: int
     -n_olhos: int
     -peso: float
-    +comunicar(): void
-    +respirar(): void
+    +comunicar() void
+    +respirar() void
 }
 
 Objeto <|-- Animal
@@ -135,17 +135,17 @@ classDiagram
         -altura: float
         -largura: float
         -comprimento: float
-        +getAltura(): float
-        +getLargura(): float
-        +getComprimento(): float
+        +getAltura() float
+        +getLargura() float
+        +getComprimento() float
     }
         
     class Animal {
         -n_patas: int
         -n_olhos: int
         -peso: float
-        +comunicar(): void
-        +respirar(): void
+        +comunicar() void
+        +respirar() void
     }
 
     Objeto <|-- Animal
@@ -161,13 +161,13 @@ herdam a classe `Animal`:
 
 ```
 class Cachorro {
-    +comunicar(): void 
-    +respirar(): void 
+    +comunicar() void 
+    +respirar() void 
 }
 
 class Peixe {
-    +comunicar(): void
-    +respirar(): void
+    +comunicar() void
+    +respirar() void
 }
 
 Animal <|-- Cachorro
@@ -180,29 +180,29 @@ classDiagram
         -altura: float
         -largura: float
         -comprimento: float
-        +getAltura(): float
-        +getLargura(): float
-        +getComprimento(): float
+        +getAltura() float
+        +getLargura() float
+        +getComprimento() float
     }
         
     class Animal {
         -n_patas: int
         -n_olhos: int
         -peso: float
-        +comunicar(): void
-        +respirar(): void
+        +comunicar() void
+        +respirar() void
     }
 
     Objeto <|-- Animal
 
     class Cachorro {
-        +comunicar(): void
-        +respirar(): void
+        +comunicar() void
+        +respirar() void
     }
 
     class Peixe {
-        +comunicar(): void
-        +respirar(): void
+        +comunicar() void
+        +respirar() void
     }
 
     Animal <|-- Cachorro
@@ -223,8 +223,8 @@ outra, mas o inverso não é verdadeiro:
 class Cachorro {
     -brinquedos: ArrayList<Brinquedo>
 
-    +comunicar(): void
-    +respirar(): void
+    +comunicar() void
+    +respirar() void
 }
 
 class Brinquedo {
@@ -243,17 +243,17 @@ classDiagram
         -altura: float
         -largura: float
         -comprimento: float
-        +getAltura(): float
-        +getLargura(): float
-        +getComprimento(): float
+        +getAltura() float
+        +getLargura() float
+        +getComprimento() float
     }
         
     class Animal {
         -n_patas: int
         -n_olhos: int
         -peso: float
-        +comunicar(): void
-        +respirar(): void
+        +comunicar() void
+        +respirar() void
     }
 
     Objeto <|-- Animal
@@ -261,13 +261,13 @@ classDiagram
     class Cachorro {
         -brinquedos: ArrayList<Brinquedo>
         
-        +comunicar(): void
-        +respirar(): void
+        +comunicar() void
+        +respirar() void
     }
 
     class Peixe {
-        +comunicar(): void
-        +respirar(): void
+        +comunicar() void
+        +respirar() void
     }
 
     Animal <|-- Cachorro
@@ -280,7 +280,7 @@ classDiagram
     
     Objeto <|-- Brinquedo
     
-    Cachorro "1" --> "*" Brinquedo 
+    Cachorro "1" -- "*" Brinquedo 
 ```
 
 > [!NOTE]
@@ -306,9 +306,9 @@ classDiagram
         -titular: String
         -saldo: float
    
-        +depositar(valor: float): void  
-        +sacar(valor: float): float  
-        +consultarSaldo(): float  
+        +depositar(valor: float) void  
+        +sacar(valor: float) float  
+        +consultarSaldo() float  
     }
    ```
 
@@ -317,15 +317,15 @@ classDiagram
    ```mermaid
     classDiagram
         class Funcionario {
-        -nome: String 
-        -salario: float
-        +exibirDados(): void
+        #nome: String 
+        #salario: float
+        +exibirDados() void
     }
     
     class Gerente {
-        -departamento: String 
+        #departamento: String 
    
-        +exibirDados(): void 
+        +exibirDados() void 
     }
     
     Funcionario <|-- Gerente
@@ -400,4 +400,4 @@ classDiagram
 ## Recursos adicionais
 
 * [Mermaid (ferramenta de design)](https://mermaid.live)
-* [Mermaid (Documentação)](https://mermaid.js.org/syntax/flowchart.html)
+* [Mermaid (Documentação)](https://docs.mermaidchart.com/mermaid-oss/syntax/flowchart.html)
