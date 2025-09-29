@@ -9,5 +9,5 @@
 * [Arquitetura de Software](ARQUITETURA_DE_SOFTWARE.md)
 * [Engenharia de Requisitos](REQUISITOS.md)
 * [Unified Modeling Language](UML.md)
-* [Test Driven Development](TEST_DRIVEN_DEVELOPMENT.md)
+* [Test Driven Development](TESTES_DE_SOFTWARE.md)
 * [Design Patterns](DESIGN_PATTERNS.md)
