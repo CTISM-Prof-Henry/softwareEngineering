@@ -242,6 +242,8 @@ apenas uma pessoa, e logo que atualiza uma versão, ela deixa de ser mantida. Cu
 Um exemplo de biblioteca que deixou de ser mantida é o conector do 
 [banco IBM DB2 para Django](https://github.com/ibmdb/python-ibmdb-django).
 
+Outro exemplo de biblioteca que foi removida por ser um projeto pequeno foi a [kik](https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code).
+
 ## Use linters  
 
 Você sabia que as IDEs da Intellij (Pycharm, Intellij IDEA, Webstorm, etc) possuem linters integrados? Esses programas
