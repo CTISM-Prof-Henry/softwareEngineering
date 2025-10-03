@@ -49,10 +49,10 @@ banco de dados) é de escolha livre dos alunos.
 ##### Documentação
 
 * **Peso:** 10%
-* **Nota máxima:** A documentação está hospedada no GitHub Pages e é gerada automaticamente a partir dos comentários do 
-  código-fonte com uma GitHub Action.
-* **Nota mínima:** A documentação não está hospedada no GitHub Pages; a documentação não é gerada automaticamente a 
-  partir dos comentários do código-fonte.
+* **Nota máxima:** A documentação está hospedada no GitHub Pages, foi feita com MKDocs e descreve como fazer para o
+  software funcionar.
+* **Nota mínima:** A documentação não está hospedada no GitHub Pages; a descrição não é clara do que precisa ser feito
+  para executar o software.
 
 ##### Testes de Software
 
