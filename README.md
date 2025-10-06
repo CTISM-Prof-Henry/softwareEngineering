@@ -32,6 +32,9 @@ banco de dados) é de escolha livre dos alunos.
 
 #### Atribuição de notas
 
+> [!NOTE]
+> Um exemplo do trabalho está disponível neste repositório: https://github.com/CTISM-Prof-Henry/exemplo-projeto-software
+
 ##### Protótipo
 
 * **Peso:** 10%
