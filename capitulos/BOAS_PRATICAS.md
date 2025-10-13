@@ -333,7 +333,7 @@ Para fazer isso, usaremos o [ESLint](https://eslint.org).
 
 3. Para rodar o linter e verificar o código, digite (⚠️ atente-se para o caminho do código-fonte!)
    ```bash
-   npx eslint website/static/js/src
+   npx eslint website/static/js/src --format html --output-file eslint-report/index.html
    ```
    Substitua o caminho `website/static/js/src` pelo caminho onde estão os arquivos Javascript do seu projeto. Isso 
    gerará um relatório na linha de comando com a qualidade do seu código.
