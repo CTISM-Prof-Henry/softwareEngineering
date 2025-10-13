@@ -311,3 +311,29 @@ Para usar o codestyle do Google:
 
 3. A saída será algo parecido com a execução do comando anterior:
    ![linter_pylint_google.png](../imagens/linter_pylint_google.png)
+
+
+#### Em Javascript
+
+É possível rodar um linter no código-fonte que não é usado pelo navegador (ou seja, aquele arquivo Javascript que não
+possui código do tipo `document.getElementById`).
+
+Para fazer isso, usaremos o [ESLint](https://eslint.org).
+
+1. Com o node.js instalado e configurado na sua máquina, execute o comando abaixo para instalar o ESLint, a partir da 
+   pasta do seu trabalho:
+   ```bash
+   npm install --save-dev eslint
+   npx eslint --init
+   ```
+
+2. O terminal vai fazer perguntas sobre o seu projeto. Use as setas do teclado para escolher as opções e aperte Enter. 
+   Veja um exemplo de como será: 
+   ![eslint_instalacao.png](../imagens/eslint_instalacao.png)
+
+3. Para rodar o linter e verificar o código, digite (⚠️ atente-se para o caminho do código-fonte!)
+   ```bash
+   npx eslint website/static/js/src
+   ```
+   Substitua o caminho `website/static/js/src` pelo caminho onde estão os arquivos Javascript do seu projeto. Isso 
+   gerará um relatório na linha de comando com a qualidade do seu código.
