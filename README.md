@@ -23,6 +23,9 @@ Disponível no Moodle da disciplina.
 
 ### Trabalho final
 
+> [!NOTE]
+> Um exemplo do trabalho está disponível neste repositório: https://github.com/CTISM-Prof-Henry/exemplo-projeto-software
+
 O trabalho final da disciplina consiste no desenvolvimento de um software, onde as especificações foram definidas em 
 sala de aula e também estão disponíveis no Moodle, que será desenvolvido no decorrer do semestre, 
 utilizado o Método Ágil SCRUM e o KanBan do GitHub para organização.
@@ -31,9 +34,6 @@ A escolha das tecnologias que serão empregadas no desenvolvimento do site (fram
 banco de dados) é de escolha livre dos alunos.
 
 #### Atribuição de notas
-
-> [!NOTE]
-> Um exemplo do trabalho está disponível neste repositório: https://github.com/CTISM-Prof-Henry/exemplo-projeto-software
 
 ##### Protótipo
 
