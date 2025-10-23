@@ -109,11 +109,11 @@ da classe), enquanto o símbolo `-` denota atributos ou métodos privados (acess
 
 > [!NOTE]
 > Os tipos de acesso da UML são:
-> * `+`: Público
-> * `-`: Privado
+> * `+`: Público: qualquer classe de qualquer lugar do código pode acessar esse atributo ou método
+> * `-`: Privado: apenas a própria classe pode acessar 
 > * `#`: Protegido: acessível a partir de subclasses (classes que herdam a classe-base) e classes no mesmo pacote da 
->   classe-base
-> * `~`: Pacote/interno: Acessível apenas a partir de classes no mesmo pacote (indisponível para classes herdeiras)
+>   classe-base (e.g. `com.example.classes`)
+> * `~`: Pacote/interno: Acessível apenas a partir de classes no mesmo pacote, e indisponível para classes herdeiras
 
 Para denotarmos uma herança no UML, traçamos uma seta entre as classes:
 
