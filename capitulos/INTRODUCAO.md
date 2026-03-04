@@ -1,26 +1,22 @@
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/CTISM-Prof-Henry/softwareEngineering/main/capitulos/INTRODUCAO.md)
 
-# Introdução
-
-As seguintes perguntas e respostas foram adaptadas do livro de Engenharia de Software do Sommerville[^1]:
-
-## O que é software?
+## O que é Software?
 
 Programas de computador e documentação associada. Os produtos de software podem ser desenvolvidos para um cliente
 específico ou para um mercado geral.
 
-## O que é engenharia de software?
+## O que é Engenharia de Software?
 
 Engenharia de software é uma disciplina de engenharia relacionada a todos os aspectos de produção de software.
 
-## Qual é a diferença entre engenharia de software e ciência da computação?
+## Qual é a diferença entre engenharia de software e Ciência da Computação?
 
-A ciência da computação está relacionada com teorias e fundamentos; a engenharia de software está relacionada com a
-prática de desenvolvimento e entrega de software útil.
+A ciência da computação está relacionada com teorias e fundamentos, enquanto a engenharia de software está relacionada 
+com a prática de desenvolvimento e entrega de software útil.
 
 ## Qual é a diferença entre engenharia de software e engenharia de sistemas?
 
-A engenharia de sistema está relacionada a todos os aspectos de desenvolvimento de sistemas baseados em computadores,
+A engenharia de sistemas está relacionada a todos os aspectos de desenvolvimento de sistemas baseados em computadores,
 incluindo hardware, software e engenharia de processo. A engenharia de software é parte desse processo.
 
 ## O que é um processo de software?
@@ -32,10 +28,15 @@ Um conjunto de atividades cujo objetivo é o desenvolvimento ou a evolução de 
 ## O que é um modelo de processo de software?
 
 Uma representação simplificada de um processo de software, apresentado sob perspectiva específica.
+Existem diversos modelos de software, e a escolha do "melhor modelo" depende do tipo de aplicação que será
+desenvolvida.
 
 ![modelo_processo_software_cascata.png](../imagens/modelo_processo_software_cascata.png)
 
 ## Quais são os custos da engenharia de software?
+
+De acordo com o site [Boundev](https://www.boundev.com/blog/software-development-costs-2026-guide), os custos de 
+desenvolvimento de software, por etapa, são:
 
 ```mermaid
 pie title Custo de desenvolvimento de software
@@ -50,6 +51,12 @@ pie title Custo de desenvolvimento de software
 
 Abordagens estruturadas para desenvolvimento de software que incluem modelos de sistema, notações, regras, recomendações
 de projeto e guias de processo.
+
+Exemplos:
+* Notações (e.g. Diagramas UML)
+* Design patterns
+* Orientações de desenvolvimento (e.g. boas práticas de codificação)
+* Ferramentas
 
 ## O que é CASE (computer-aided software engineering)?
 
