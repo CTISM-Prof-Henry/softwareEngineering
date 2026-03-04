@@ -9,6 +9,21 @@ específico ou para um mercado geral.
 
 Engenharia de software é uma disciplina de engenharia relacionada a todos os aspectos de produção de software.
 
+## O que foi a crise de software?
+
+A [crise de software](https://en.wikipedia.org/wiki/Software_crisis) foi um termo criado por participantes da 
+primeira conferência de Engenharia de Software da OTAN, em 1968, para definir o problema de desenvolver 
+software à época:
+
+* Projetos que estouravam o orçamento, o tempo, ou ambos;
+* Software de baixa qualidade, que não atendia os requisitos;
+* Código-fonte de difícil manutenção.
+
+Esses problemas ainda existem nos dias atuais, e podem ser exacerbados pelo uso de Inteligência Artificial:
+
+* dependência do conhecimento da IA, sem capacidade de identificar bugs ou falhas de segurança;
+* dependências de provedores específicos (i.e. dificuldade de migrar para outra plataforma).
+
 ## Qual é a diferença entre engenharia de software e Ciência da Computação?
 
 A ciência da computação está relacionada com teorias e fundamentos, enquanto a engenharia de software está relacionada 
@@ -75,4 +90,4 @@ de confiança.
 
 ## Bibliografia
 
-[^1]: Sommerville, Ian: Engenharia de Software 9ª edição. Pearson Prentice Hall, 2011.
+* Sommerville, Ian: Engenharia de Software 9ª edição. Pearson Prentice Hall, 2011.
