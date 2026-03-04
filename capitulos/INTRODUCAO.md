@@ -37,13 +37,13 @@ Uma representação simplificada de um processo de software, apresentado sob per
 
 ## Quais são os custos da engenharia de software?
 
-Cerca de 60 por cento dos custos são de desenvolvimento, 40 por cento são custos de teste. Para software sob encomenda,
-os custos de evolução excedem frequentemente os custos de desenvolvimento.
-
 ```mermaid
 pie title Custo de desenvolvimento de software
-    "Desenvolvimento" : 60
-    "Testes" : 40
+    "Planejamento e Engenharia de Requisitos" :  10
+    "Design (Interface e Arquitetura de Software)": 15
+    "Desenvolvimento (Codificação)" : 40
+    "Testes e Controle de Qualidade": 15
+    "Implementação e Manutenção": 20
 ```
 
 ## O que são métodos de engenharia de software?
@@ -58,7 +58,7 @@ CASE são freqüentemente usados para apoio ao método.
 
 ## Quais são os atributos de um bom software?
 
-O software deve fornecer a funcionalidade e o desempenho exigidos pelo usuário e deve ser fácil de manter, confiável e
+O software deve fornecer a funcionalidade e o desempenho exigidos pelo usuário e deve ser fácil de manter, ser confiável e
 usável.
 
 ## Quais são os desafios-chave da engenharia de software?
