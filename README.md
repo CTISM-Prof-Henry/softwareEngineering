@@ -37,7 +37,7 @@ banco de dados) é de escolha livre dos alunos.
 
 ##### Protótipo
 
-* **Peso:** 10%
+* **Peso:** 15%
 * **Nota máxima:** Um protótipo foi gerado no Figma. O protótipo pode ou não ser navegável. É possível entender as 
   funcionalidades do software através do protótipo. 
 * **Nota mínima:** Nenhum protótipo foi feito; um esboço no papel foi gerado; não é possível entender as funcionalidades 
@@ -51,15 +51,14 @@ banco de dados) é de escolha livre dos alunos.
 
 ##### Documentação
 
-* **Peso:** 10%
-* **Nota máxima:** A documentação está hospedada no GitHub Pages, foi feita com MKDocs e descreve como fazer para o
-  software funcionar.
+* **Peso:** 15%
+* **Nota máxima:** A documentação está hospedada no GitHub Pages, foi feita com MKDocs e descreve a utilização do software.
 * **Nota mínima:** A documentação não está hospedada no GitHub Pages; a descrição não é clara do que precisa ser feito
   para executar o software.
 
 ##### Testes de Software
 
-* **Peso:** 10%
+* **Peso:** 20%
 * **Nota máxima:** Pelo menos três testes de software (unitários, de componente, de integração) **automatizados** foram
   implementados e estão testando aspectos úteis do software.
 * **Nota mínima:** Não foram implementados pelo menos três testes, ou os testes são **manuais**, ou os testes não cobrem
@@ -73,12 +72,6 @@ banco de dados) é de escolha livre dos alunos.
   passado por um linter.
 * **Nota mínima:** O código-fonte não foi entregue, ou foi entregue com atraso, ou não é executável, ou não estão 
   disponíveis instruções de execução.
-
-##### Acompanhamento
-
-* **Peso:** 20%
-* **Nota máxima:** O incremento do software foi entregue de acordo com o planejamento. 
-* **Nota mínima:** Houveram atrasos na entrega do incremento do software, ou um acompanhamento do projeto não foi feito.
 
 ##### Produto final (software)
 
