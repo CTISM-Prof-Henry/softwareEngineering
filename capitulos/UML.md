@@ -294,6 +294,66 @@ classDiagram
 > * `Cachorro "*" -- "*" Brinquedo` significa um cachorro possui entre 0 e N brinquedos, e um brinquedo pode pertencer 
 >   a entre 0 e N cachorros. 
 
+### Diagrama Entidade-Relacionamento
+
+Os diagramas entidade-relacionamento (ER) são usados para modelar a estrutura de um banco de dados, mostrando as
+entidades, seus atributos e os relacionamentos entre elas. Embora não sejam parte da UML, eles são frequentemente usados
+em conjunto com os diagramas de classe para projetar a estrutura de dados de um sistema.
+
+Existem diferentes notações para os diagramas ER[^1]:
+
+![notações_er.png](../imagens/nota%C3%A7%C3%B5es_er.png)
+
+Usaremos a ferramenta online [dbdiagram.io](https://dbdiagram.io) para modelar os diagramas ER, que utiliza a seguinte
+sintaxe:
+
+```dbml
+Table clientes {
+  id_cliente int [pk]
+  nome_cliente varchar
+  telefone varchar
+  email varchar
+  endereco varchar
+  criado_em timestamp
+}
+
+Table pedidos {
+  id_pedido int [pk]
+  id_cliente int [ref: > clientes.id_cliente]
+  data_pedido timestamp
+  status varchar  // ex: pendente, preparando, entregue
+  valor_total decimal
+}
+
+Table itens_para_pedidos {
+  id_itens_para_pedidos int [pk]
+  id_pedido int [ref: > pedidos.id_pedido]
+  id_pizza int [ref: > pizzas.id_pizza]
+  tamanho varchar [default: null]  // 'P', 'M', 'G', 'GG'
+  quantidade int
+  valor decimal
+}
+
+Table pizzas {
+  id_pizza int [pk]
+  nome_pizza varchar
+}
+
+Table ingredientes_para_pizzas {
+  id_pizza int [ref: > pizzas.id_pizza]
+  id_ingrediente int [ref: > ingredientes.id_ingrediente]
+}
+
+Table ingredientes {
+  id_ingrediente int [pk]
+  nome_ingrediente varchar
+  quantidade_estoque int
+  unidade varchar
+}
+```
+
+![diagrama_er_pizzaria.png](../imagens/diagrama_er_pizzaria.png)
+
 #### Exercícios
 
 1. Implemente em Java o diagrama de classe abaixo: 
@@ -393,11 +453,14 @@ classDiagram
    > * Pedido possui numero, valorTotal e está associado a um único Cliente.
    > * Cliente possui nome e cpf.
    > * A loja deve ter um método registrarPedido(Pedido p).
-   
-### Diagrama de Casos de Uso
 
+7. Para o diagrama da pizzaria, na seção Entidade-Relacionamento: faça adaptações para permitir a inclusão de pizzas 
+   com múltiplos sabores.
 
 ## Recursos adicionais
 
 * [Mermaid (ferramenta de design)](https://mermaid.live)
 * [Mermaid (Documentação)](https://docs.mermaidchart.com/mermaid-oss/syntax/flowchart.html)
+
+
+[^1]: [Notações para diagramas ER](https://stackoverflow.com/a/48198083/2202739)
