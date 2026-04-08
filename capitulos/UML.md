@@ -20,7 +20,8 @@ sistema. Os diagramas podem ser divididos em duas categorias principais:
   sequência, que detalha a troca de mensagens entre objetos ao longo do tempo.
 
 Existem diferentes ferramentas de modelagem UML. Nesta disciplina, usaremos a ferramenta online 
-[Mermaid](https://mermaid.live), por serem prontamente integrados em Markdown (e portanto, na documentação de repositórios do GitHub). 
+[Mermaid](https://mermaid.live) (documentação [aqui](https://mermaid.ai/open-source/syntax/flowchart.html)), por serem prontamente
+integrados em Markdown (e portanto, na documentação de repositórios do GitHub). 
 Os diagramas em Mermaid são programados com uma linguagem de marcação (mermaid) e são renderizados automaticamente;
 
 ## Tipos de Diagramas
