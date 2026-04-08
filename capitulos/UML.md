@@ -41,6 +41,27 @@ O sistema pode ser representado como um retângulo, dentro do qual as elipses es
 Mermaid, não existe uma maneira de representar bonequinhos palito, pois ainda não existe representação para esta 
 entidade na linguagem. Todavia, é possível representar os atores como emojis:
 
+<details>
+<summary><strong>Código do diagrama</strong></summary>
+<pre>
+flowchart TD
+    actor1["👤 Usuário"]
+    actor2["👤 Administrador"]
+
+    subgraph Sistema
+        uc1([Realizar Login])
+        uc2([Gerar relatório])
+        uc3([Gerenciar usuários])
+    end
+
+    actor1 --> uc1
+    actor1 --> uc2
+    actor2 --> uc3
+    actor2 --> uc2
+    actor2 --> uc1
+</pre>
+</details>
+
 ```mermaid
 flowchart TD
     actor1["👤 Usuário"]
@@ -67,6 +88,28 @@ Existem dois modificadores de comportamento no diagrama de caso de uso: `<<exten
   para que as ações _gerar relatório_ e _gerenciar usuários_ incluam a ação _realizar login_:
 
 
+<details>
+<summary><strong>Código do diagrama</strong></summary>
+<pre>
+flowchart TD
+    actor1["👤 Usuário"]
+    actor2["👤 Administrador"]
+
+    subgraph Sistema
+        uc1([Realizar Login])
+        uc2([Gerar relatório])
+        uc3([Gerenciar usuários])
+    end
+
+    uc2 -. include .-> uc1
+    uc3 -. include .-> uc1
+
+    actor1 --> uc2
+    actor2 --> uc3
+    actor2 --> uc2
+</pre>
+</details>
+
 ```mermaid
 flowchart TD
     actor1["👤 Usuário"]
@@ -85,6 +128,7 @@ flowchart TD
     actor2 --> uc3
     actor2 --> uc2
 ```
+
 
 ### Diagrama de Classes
 
