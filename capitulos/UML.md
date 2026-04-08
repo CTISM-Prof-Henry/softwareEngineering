@@ -9,21 +9,19 @@ A UML não é uma metodologia de desenvolvimento, mas sim uma linguagem de model
 abordagens, como o desenvolvimento ágil ou tradicional. Sua função é facilitar a comunicação entre os membros da equipe,
 diminuir ambiguidades e servir de guia tanto para a análise quanto para a implementação de sistemas.
 
-Um dos principais pontos fortes da UML é oferecer diferentes tipos de diagramas, cada um voltado a um aspecto do
+Um dos pontos fortes da UML é oferecer diferentes tipos de diagramas, cada um voltado a um aspecto do
 sistema. Os diagramas podem ser divididos em duas categorias principais:
 
-* Diagramas estruturais, que descrevem a parte estática do sistema, como classes, objetos, componentes e a arquitetura
+* **Diagramas estruturais**, que descrevem a parte estática do sistema, como classes, objetos, componentes e a arquitetura
   geral. O [diagrama de classes](#diagrama-de-classes) é um dos mais utilizados, pois mostra as classes, seus atributos, 
   métodos e relações.
-* Diagramas comportamentais, que representam a dinâmica e o fluxo de atividades no sistema. Exemplos incluem o [diagrama
+* **Diagramas comportamentais**, que representam a dinâmica e o fluxo de atividades no sistema. Exemplos incluem o [diagrama
   de casos de uso](#diagrama-de-casos-de-uso), que mostra como os atores interagem com o sistema, e o diagrama de 
   sequência, que detalha a troca de mensagens entre objetos ao longo do tempo.
 
 Existem diferentes ferramentas de modelagem UML. Nesta disciplina, usaremos a ferramenta online 
-[Mermaid](https://mermaid.live):
-
-* Os diagramas são programados com uma linguagem de marcação (mermaid) e são renderizados automaticamente;
-* O código dos diagramas pode ser incorporado à documentação do GitHub.
+[Mermaid](https://mermaid.live), por serem prontamente integrados em Markdown (e portanto, na documentação de repositórios do GitHub). 
+Os diagramas em Mermaid são programados com uma linguagem de marcação (mermaid) e são renderizados automaticamente;
 
 ## Tipos de Diagramas
 
@@ -49,16 +47,43 @@ flowchart TD
     actor2["👤 Administrador"]
 
     subgraph Sistema
-        uc1([Realiza Login])
-        uc2([Gera relatório])
-        uc3([Gerencia usuários])
+        uc1([Realizar Login])
+        uc2([Gerar relatório])
+        uc3([Gerenciar usuários])
     end
 
     actor1 --> uc1
     actor1 --> uc2
     actor2 --> uc3
     actor2 --> uc2
+    actor2 --> uc1
+```
 
+Existem dois modificadores de comportamento no diagrama de caso de uso: `<<extend>>` (estende) e `<<include>>` (inclui):
+
+* `<<extend>>` é usado quando uma ação é uma **variação** de outra. No diagrama do exemplo do início dessa seção, _pedir vinho_
+  é uma variação de _pedir comida_, possuindo comportamento semelhante.
+* `<<include>>` é utilizado quando uma ação **requer outra ação** para ser completada. No diagrama logo acima, podemos modificá-lo
+  para que as ações _gerar relatório_ e _gerenciar usuários_ incluam a ação _realizar login_:
+
+
+```mermaid
+flowchart TD
+    actor1["👤 Usuário"]
+    actor2["👤 Administrador"]
+
+    subgraph Sistema
+        uc1([Realizar Login])
+        uc2([Gerar relatório])
+        uc3([Gerenciar usuários])
+    end
+
+    uc2 -. include .-> uc1
+    uc3 -. include .-> uc1
+
+    actor1 --> uc2
+    actor2 --> uc3
+    actor2 --> uc2
 ```
 
 ### Diagrama de Classes
