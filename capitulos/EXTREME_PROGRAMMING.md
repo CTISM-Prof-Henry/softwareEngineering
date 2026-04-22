@@ -46,7 +46,7 @@ A comunicação entre cliente e desenvolvedores é fundamental para o sucesso do
 a importância de ouvir o cliente, para entender suas necessidades e expectativas, e também de ouvir os membros da
 equipe, para entender suas dificuldades e sugestões.
 
-Levado ao extremo, a escuta leva a **reuniões diárias** (as _dailies), onde os membros da equipe se reúnem para discutir
+Levado ao extremo, a escuta leva a **reuniões diárias** (as _dailies_), onde os membros da equipe se reúnem para discutir
 o progresso do desenvolvimento, os obstáculos encontrados e as próximas tarefas a serem realizadas.
 
 ### Design
