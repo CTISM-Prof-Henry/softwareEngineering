@@ -6,8 +6,8 @@ a comunicação, simplicidade, feedback e coragem. A ideia é pegar as boas prá
 levá-las ao extremo.
 
 <span>
-<img alt="ciclos do extreme programming" src="../imagens/extreme_programming.png" width="400px">
-<img alt="práticas do extreme programming" src="../imagens/extreme_programming_pr%C3%A1ticas.png" width="400px">
+<img alt="ciclos do extreme programming" src="../imagens/extreme_programming.png" width="500px">
+<img alt="práticas do extreme programming" src="../imagens/extreme_programming_pr%C3%A1ticas.png" width="500px">
 </span>
 
 O XP pode ser dividido em dois principais eixos: seus **valores** e suas **atividades**.
