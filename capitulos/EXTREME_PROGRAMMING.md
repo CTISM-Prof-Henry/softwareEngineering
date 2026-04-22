@@ -5,7 +5,10 @@ desenvolvimento de software. Proposto inicialmente por Kent Beck em 1999, o Extr
 a comunicação, simplicidade, feedback e coragem. A ideia é pegar as boas práticas de desenvolvimento de software e 
 levá-las ao extremo.
 
-![extreme_programming.png](../imagens/extreme_programming.png)
+<span>
+<img alt="ciclos do extreme programming" src="../imagens/extreme_programming.png" width="400px">
+<img alt="práticas do extreme programming" src="../imagens/extreme_programming_pr%C3%A1ticas.png" width="400px">
+</span>
 
 O XP pode ser dividido em dois principais eixos: seus **valores** e suas **atividades**.
 
