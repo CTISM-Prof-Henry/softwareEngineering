@@ -30,6 +30,22 @@ e mensurar os aspectos de qualidade, sendo o modelo de qualidade propriamente.
 
 <img alt="escavadeira" src="../imagens/escavadeira.webp" width="400px">
 
+### Eficiência
+
+A eficiência relaciona-se ao uso otimizado dos recursos disponíveis pelo software, incluindo tempo (velocidade). Nesse sentido, um sistema eficiente deve realizar suas funções rapidamente e facilmente pelo usuário.
+
+Softwares eficientes melhoram a experiência geral do usuário ao reduzir o tempo que o usuário demora para realizar ações ao aumentar a responsividade das aplicações.
+
+Exemplo: Aplicativo de Banco, um cliente usa o app para transferir dinheiro.
+Será ineficiênte se o usuário demorar muito tempo para descobrir como fazer a transferência.  
+Será eficiênte se o aplicativo for intuitivo nas funcionalidades, conseguir fazer a transferência em poucos segundos e em poucos toques.
+Nesse exemplo a métrica da boa eficiência é o tempo, medido por quantos segundos o usuário demora para realizar a ação utilizando as funcionalidades do sistema.
+
+Exemplo: Sistema de gestão empresárial, um funcionário precisam gerar relatórios mensais urgente por conta que o chefe pediu.
+Será ineficiênte se o usuário não conseguir gerar os relatórios no prazo que o chefe pediu por conta da interface não intuitiva do app.
+Será eficiênte se o sistema gerar o mesmo relatório em poucos cliques, em pouco tempo e quando o usuário precisar/quiser.
+Nesse exemplo a métrica da boa eficiência é o tempo, medido por quantos segundos o usuário demora para realizar a ação utilizando as funcionalidades do sistema.
+
 ## Qualidade do Produto
 
 Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
@@ -44,6 +60,17 @@ Novamente, é subdividida em oito categorias, definidas pela ISO 25010:
 8. **Portabilidade:** capacidade de ser transferido para outros ambientes.
 
 <img alt="relógio de luxo" src="../imagens/patek_philippe.png" width="400px">
+
+### Adequação Funcional
+
+Esta característica representa o grau em que um produto ou sistema fornece funções que atendem às necessidades declaradas e implícitas quando utilizado sob condições especificadas. Esta característica é composta pelas seguintes subcaracterísticas:
+
+Completude funcional - Grau em que o conjunto de funções abrange todas as tarefas especificadas e os objetivos dos usuários pretendidos.
+Correção funcional - Grau em que um produto ou sistema fornece resultados precisos quando utilizado pelos usuários pretendidos.
+Adequação funcional - Grau em que as funções facilitam a realização de tarefas e objetivos especificados.
+
+Exemplo: Sistema E-commerce, o software é capaz de calcular o frete de forma precisa em todos os pedidos sem erro.
+Exemplo: Aplicativo de rede social, deve permitir que os usuários criem seus perfis, editem informações pessoais e interajam com outros usuários conforme definido nos requisitos.
 
 ## Como mensurar a qualidade?
 
