@@ -37,8 +37,8 @@ de capturar muitos bugs. Portanto, no XP, a **cobertura de testes** deve ser ext
 implementada antes de um teste unitário ser implementado antes. Bugs não são falhas no software, mas sim testes que não
 foram implementados ainda.
 
-No XP também estão presentes **testes de aceitação**, para verificar se o software atende aos requisitos do cliente, e *
-*testes de integração**, para verificar se os diferentes componentes do software estão integrados corretamente.
+No XP também estão presentes **testes de aceitação**, para verificar se o software atende aos requisitos do cliente, e 
+**testes de integração**, para verificar se os diferentes componentes do software estão integrados corretamente.
 
 ### Escuta
 
