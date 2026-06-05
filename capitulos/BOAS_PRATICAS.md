@@ -40,6 +40,32 @@ def processa_usuario(usuario: dict) -> bool:
     return True
 ```
 
+## Exceções são suas amigas
+
+Não precisa ter medo de exceções! Elas servem a um propósito.
+
+O código abaixo mascara uma exceção, criando uma função que retorna `None`. Porém, esse encapsulamento é desnecessário,
+e seria melhor atendido caso o código lançasse uma exceção, avisando ao programador que o usuário não existe:
+
+```python
+def _find_user_by_id(pk):
+    """Return user or None"""
+    try:
+        user = Usuario.objects.get(pk=pk)
+    except Usuario.DoesNotExist:
+        return None
+    return user
+
+# ...
+
+user = _find_user_by_id(pk)
+if user is None:
+   return Response(
+       {"detail": f"Usuário com id: {pk}, não encontrado."},
+       status=status.HTTP_404_NOT_FOUND,
+   )
+```
+
 ## Comente o "por que", não o "como"  
 
 Se o código precisar de muito comentário para ser entendido, ele precisa provavelmente de [refatoração](REFATORACAO.md).
