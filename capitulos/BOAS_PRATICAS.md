@@ -47,6 +47,8 @@ Não precisa ter medo de exceções! Elas servem a um propósito.
 O código abaixo mascara uma exceção, criando uma função que retorna `None`. Porém, esse encapsulamento é desnecessário,
 e seria melhor atendido caso o código lançasse uma exceção, avisando ao programador que o usuário não existe:
 
+❌ Ruim:
+
 ```python
 def _find_user_by_id(pk):
     """Return user or None"""
@@ -64,6 +66,18 @@ if user is None:
        {"detail": f"Usuário com id: {pk}, não encontrado."},
        status=status.HTTP_404_NOT_FOUND,
    )
+```
+
+✅ Melhor:
+
+```python
+try:
+    user = Usuario.objects.get(pk=pk)
+except Usuario.DoesNotExist:
+    return Response(
+        {"detail": f"Usuário com id: {pk}, não encontrado."},
+        status=status.HTTP_404_NOT_FOUND,
+    )
 ```
 
 ## Comente o "por que", não o "como"  
