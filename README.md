@@ -45,7 +45,7 @@ banco de dados) é de escolha livre dos alunos.
 
 ##### Diagramas UML
 
-* **Peso:** 10%
+* **Peso:** 15%
 * **Nota máxima:** Um diagrama de classes ou um diagrama de caso de uso está presente e a sintaxe e semântica está correta. 
 * **Nota mínima:** Nenhum diagrama foi apresentado, ou a sintaxe ou semântica está incorreta.
 
@@ -75,7 +75,7 @@ banco de dados) é de escolha livre dos alunos.
 
 ##### Produto final (software)
 
-* **Peso:** 20%
+* **Peso:** 15%
 * **Nota máxima:** O software atende completamente às expectativas do cliente (faz o que se propõe a fazer). 
 * **Nota mínima:** O software não atende às expectativas do cliente.
 
