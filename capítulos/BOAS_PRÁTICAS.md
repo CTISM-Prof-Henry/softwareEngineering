@@ -82,7 +82,7 @@ except Usuario.DoesNotExist:
 
 ## Comente o "por que", não o "como"  
 
-Se o código precisar de muito comentário para ser entendido, ele precisa provavelmente de [refatoração](REFATORACAO.md).
+Se o código precisar de muito comentário para ser entendido, ele precisa provavelmente de [refatoração](REFATORAÇÃO.md).
 Nomes de variáveis e funções devem ser autoexplicativos!
 
 ❌ Ruim:
@@ -142,7 +142,7 @@ uma versão anterior de uma função, é melhor que a mensagem do commit seja au
 Testes unitários e de componentes ajudam a garantir que novas alterações não quebrem funcionalidades existentes,
 facilitando colaboração.
 
-Inclusive, [escreva testes antes](TESTES_DE_SOFTWARE.md#test-driven-development) de escrever o código-fonte da 
+Inclusive, [escreva testes antes](6. TESTES_DE_SOFTWARE.md#test-driven-development) de escrever o código-fonte da 
 funcionalidade!
 
 ✅ Melhor:
