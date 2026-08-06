@@ -7,28 +7,36 @@ cumpridos. Podem ser divididos em duas grandes categorias:
    sendo usadas, tratamento de exceções, dentre outros conceitos.
 2. **Testes caixa preta:** preocupam-se apenas com as entradas e saídas do software.
 
-Os testes podem ser ainda divididos de acordo com o escopo sendo testado: unitários, de componentes e de integração.
+Os testes podem ser ainda divididos conforme o escopo sendo testado.
 
-## Unitários
+## Escopo de testes
+
+### Unitários
 
 Os testes unitários verificam pequenas funcionalidades de um software. Por exemplo, se tivermos um site que calcula
 aplicações financeiras e tributos, podemos ter tantos testes unitários quanto tivermos aplicações financeiras (e.g. CDB,
 Ouro, Ações, Tesouro Direto), e tributos (ICMS, IOF, Imposto de Renda, etc).
 
-## De Componentes
+### De Componentes
 
 Testes de componente **não são** um coletivo de testes unitários, mas sim uma maneira de testar um componente de maneira
 isolada. No nosso exemplo anterior, um componente pode ser a página do site que mostra as aplicações financeiras.
 Teríamos então um teste de componente para ver se todas as opções de aplicações estão sendo listadas, se é possível
 inserir valores em campos de texto, etc.
 
-## Integração
+### Integração
 
 Os testes de integração verificam o conjunto de componentes de software. No exemplo anterior, o site inteiro poderia ser
 testado: a página inicial, a página de aplicações financeiras, a página de cálculo de tributos, a página de contato,
 etc.
 
-## Cobertura
+### Aceitação
+
+Testes de aceitação visam verificar se o software está atendendo aos requisitos do cliente. No exemplo anterior, um
+teste de aceitação poderia ser verificar se o site está calculando corretamente o valor do imposto de renda, ou se o
+site está listando corretamente as aplicações financeiras disponíveis.
+
+## Cobertura de Testes
 
 A cobertura de um conjunto de testes automatizados e unitários de software consiste em calcular quantos % do código está
 coberto (executado) pelos testes. Apesar de não ser uma relação 1:1 para a qualidade do software (por exemplo, um
