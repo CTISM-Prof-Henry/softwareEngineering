@@ -142,7 +142,7 @@ uma versão anterior de uma função, é melhor que a mensagem do commit seja au
 Testes unitários e de componentes ajudam a garantir que novas alterações não quebrem funcionalidades existentes,
 facilitando colaboração.
 
-Inclusive, [escreva testes antes](6. TESTES_DE_SOFTWARE.md#test-driven-development) de escrever o código-fonte da 
+Inclusive, [escreva testes antes](7. TESTES_DE_SOFTWARE.md#test-driven-development) de escrever o código-fonte da 
 funcionalidade!
 
 ✅ Melhor:
